@@ -3,6 +3,4 @@
 # fixdep: used to generate dependency information during build process
 
 hostprogs-y	:= fixdep
-hostprogs-y	+= cc-wrapper
-
 always		:= $(hostprogs-y)
